@@ -1,0 +1,328 @@
+{
+  "platform_metadata": {
+    "api_version": "2024-11-01",
+    "rate_limit": { "max": 100, "window_seconds": 60 },
+    "scopes_required": ["read:chats", "read:fans"]
+  },
+  "creator_account": {
+    "creatorId": "cr_001",
+    "display_name": "Sophia Valentine",
+    "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=sophia",
+    "account_type": "verified_creator",
+    "agency": {
+      "agency_id": "ag_fanvue_rize",
+      "agency_name": "Rize Management",
+      "plan": "enterprise"
+    }
+  },
+  "user_session": {
+    "userId": "usr_chatter_001",
+    "role": "chatter",
+    "display_name": "Alex (Chatter)",
+    "permissions": ["read:chats", "write:chats", "manage:tags"],
+    "creator_access": ["cr_001"]
+  },
+  "raw_conversations": [
+    {
+      "conversation_id": "conv_001",
+      "fan_data": {
+        "fanId": "fan_001",
+        "Name": "Marcus Johnson",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=marcus",
+        "TotalSpent": 487.50,
+        "subscription_tier": "VIP",
+        "member_since": "2024-08-15T00:00:00Z",
+        "tags": ["High spender", "Regular tipper"],
+        "is_online": true
+      },
+      "last_message": {
+        "msg_id": "msg_015",
+        "body": "Just unlocked the new set, absolutely incredible work 🔥",
+        "from": "fan",
+        "sent_at": "2026-02-19T09:32:00Z"
+      },
+      "unread": 2,
+      "total_messages": 15,
+      "Status": "Active",
+      "inline_messages": [
+        { "msg_id": "msg_001", "body": "Hey Marcus! Thanks for subscribing 💕", "from": "creator", "sent_at": "2024-08-15T12:00:00Z", "attachments": null },
+        { "msg_id": "msg_002", "body": "Thanks! Been following you on IG for a while", "from": "fan", "sent_at": "2024-08-15T12:05:00Z" },
+        { "msg_id": "msg_003", "body": "That means so much! Let me know if there's anything special you'd like to see", "from": "creator", "sent_at": "2024-08-15T12:10:00Z" },
+        { "msg_id": "msg_004", "body": "Actually yes — do you do custom content?", "from": "fan", "sent_at": 1723798200 },
+        { "msg_id": "msg_005", "body": "Absolutely! I have a custom menu in my pinned post. Take a look and let me know what catches your eye 😊", "from": "creator", "sent_at": "2024-08-16T10:00:00Z" },
+        { "msg_id": "msg_006", "body": "Just sent a $25 tip for the custom set request!", "from": "fan", "sent_at": "Aug 17, 2024 2:20 PM", "attachments": [{ "type": "tip", "amount": 25.00 }] },
+        { "msg_id": "msg_007", "body": "Got it! Working on it now, should have it ready by tomorrow 🎨", "from": "creator", "sent_at": "2024-08-17T14:30:00Z" },
+        { "msg_id": "msg_008", "body": "Here's your custom set! Hope you love it 💜", "from": "creator", "sent_at": "2024-08-18T16:00:00Z", "attachments": [{ "type": "ppv", "price": 15.00, "label": "Custom Set — Marcus" }] },
+        { "msg_id": "msg_009", "body": "WOW this is amazing!! Worth every penny", "from": "fan", "sent_at": "2024-08-18T16:15:00Z" },
+        { "msg_id": "msg_010", "body": "Glad you love it! You're one of my favorite supporters ❤️", "from": "creator", "sent_at": "2024-08-18T16:20:00Z" },
+        { "msg_id": "msg_011", "body": "Just dropped a new exclusive set on my wall — check it out!", "from": "creator", "sent_at": "2026-02-10T10:00:00Z" },
+        { "msg_id": "msg_012", "body": "On it!", "from": "fan", "sent_at": 1739178300 },
+        { "msg_id": "msg_013", "body": "Unlocked! The lighting in this one is insane", "from": "fan", "sent_at": "2026-02-10T10:08:00Z" },
+        { "msg_id": "msg_014", "body": "New drop just went live — you get first access as always 🫶", "from": "creator", "sent_at": "2026-02-19T08:00:00Z", "attachments": [{ "type": "ppv", "price": 20.00, "label": "Exclusive Drop — Feb" }] },
+        { "msg_id": "msg_015", "body": "Just unlocked the new set, absolutely incredible work 🔥", "from": "fan", "sent_at": "2026-02-19T09:32:00Z" }
+      ]
+    },
+    {
+      "conversation_id": "conv_002",
+      "fan_data": {
+        "fanId": "fan_002",
+        "Name": "Ashley Chen",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=ashley",
+        "total_spent": 1245.00,
+        "subscription_tier": "VIP",
+        "member_since": "2024-03-22",
+        "tags": ["Whale", "VIP"]
+      },
+      "last_message": {
+        "msg_id": "msg_042",
+        "body": "Can you do a custom set? Happy to pay premium for it",
+        "from": "fan",
+        "sent_at": "2026-02-19T08:15:00Z"
+      },
+      "unread": 1,
+      "total_messages": 42,
+      "Status": "active",
+      "message_refs": ["msg_030", "msg_031", "msg_035", "msg_036", "msg_037", "msg_038", "msg_039", "msg_040", "msg_041", "msg_042"]
+    },
+    {
+      "conversation_id": "conv_003",
+      "fan_data": {
+        "fanId": "fan_003",
+        "Name": "Jordan Rivera",
+        "avatar": null,
+        "TotalSpent": 35.00,
+        "subscription_tier": "Basic",
+        "member_since": "2026-01-10T00:00:00Z",
+        "tags": ["New fan"]
+      },
+      "last_message": {
+        "msg_id": "msg_057",
+        "body": "Hey! Just subscribed, love your content",
+        "from": "fan",
+        "sent_at": "Feb 18, 2026 10:45 PM"
+      },
+      "unread": 0,
+      "total_messages": 8,
+      "Status": "Active",
+      "inline_messages": [
+        { "msg_id": "msg_050", "body": "Hey! Just subscribed, love your content", "from": "fan", "sent_at": "2026-01-10T15:00:00Z" },
+        { "msg_id": "msg_051", "body": "Welcome Jordan! 🥰 So glad you found me. Let me know if you have any questions about the content tiers!", "from": "creator", "sent_at": "2026-01-10T15:30:00Z" },
+        { "msg_id": "msg_052", "body": "Thanks! What's the difference between basic and VIP?", "from": "fan", "sent_at": "2026-01-10T16:00:00Z" },
+        { "msg_id": "msg_053", "body": "Great question! VIP gets you early access to all drops, exclusive BTS content, priority customs, and a monthly bonus set 💫", "from": "creator", "sent_at": "2026-01-10T16:15:00Z" },
+        { "msg_id": "msg_054", "body": "Ooh that sounds worth it! Might upgrade soon", "from": "fan", "sent_at": 1736582400 },
+        { "msg_id": "msg_055", "body": "Let me know when you do — I'll throw in something extra as a welcome gift 🎁", "from": "creator", "sent_at": "2026-01-11T09:10:00Z" },
+        { "msg_id": "msg_056", "body": "Just checking in — any new content coming this week?", "from": "fan", "sent_at": "2026-02-18T22:30:00Z" },
+        { "msg_id": "msg_057", "body": "Hey! Just subscribed, love your content", "from": "fan", "sent_at": "2026-02-18T22:45:00Z" }
+      ]
+    },
+    {
+      "conversation_id": "conv_004",
+      "fan_data": {
+        "fanId": "fan_004",
+        "Name": "Tyler Brooks",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=tyler",
+        "TotalSpent": 892.00,
+        "subscription_tier": "VIP",
+        "member_since": "2024-06-01T00:00:00Z",
+        "tags": ["Regular tipper", "Custom buyer"],
+        "is_online": false
+      },
+      "last_message": {
+        "msg_id": "msg_067",
+        "body": "Thanks for the shoutout in your story! Made my day",
+        "from": "fan",
+        "sent_at": "2026-02-18T19:20:00Z"
+      },
+      "unread": 0,
+      "total_messages": 67,
+      "Status": "ACTIVE"
+    },
+    {
+      "conversation_id": "conv_005",
+      "fan_data": {
+        "fanId": "fan_005",
+        "Name": "Sam Patel",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=sam",
+        "total_spent": 12.99,
+        "subscription_tier": "Free",
+        "member_since": "2026-02-15T00:00:00Z"
+      },
+      "last_message": {
+        "msg_id": "msg_072",
+        "body": "Do you offer any discounts for new subscribers?",
+        "from": "fan",
+        "sent_at": "2026-02-18T16:00:00Z"
+      },
+      "unread": 1,
+      "total_messages": 3,
+      "Status": "active",
+      "inline_messages": [
+        { "msg_id": "msg_070", "body": "Hey there! Welcome to my page 😊", "from": "creator", "sent_at": "2026-02-15T10:00:00Z" },
+        { "msg_id": "msg_071", "body": "Thanks! Still figuring out how everything works lol", "from": "fan", "sent_at": "2026-02-15T10:30:00Z" },
+        { "msg_id": "msg_072", "body": "Do you offer any discounts for new subscribers?", "from": "fan", "sent_at": "2026-02-18T16:00:00Z" }
+      ]
+    },
+    {
+      "conversation_id": "conv_006",
+      "fan_data": {
+        "fanId": "fan_006",
+        "Name": "Emma Larsson",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=emma",
+        "TotalSpent": 2150.00,
+        "subscription_tier": "VIP",
+        "member_since": "2023-11-20",
+        "tags": ["Whale", "VIP", "Custom buyer"],
+        "is_online": true
+      },
+      "last_message": {
+        "msg_id": "msg_089",
+        "body": "Sent you a $100 tip for the exclusive drop 💜",
+        "from": "fan",
+        "sent_at": 1739886600
+      },
+      "unread": 0,
+      "total_messages": 89,
+      "Status": "Active"
+    },
+    {
+      "conversation_id": "conv_007",
+      "fan_data": {
+        "fanId": "fan_007",
+        "Name": "Chris Nakamura",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=chris",
+        "total_spent": 65.00,
+        "subscription_tier": "Basic",
+        "member_since": "2025-09-05T00:00:00Z",
+        "tags": null
+      },
+      "last_message": {
+        "msg_id": "msg_011_c7",
+        "body": "When's the next live stream happening?",
+        "from": "fan",
+        "sent_at": "2026-02-17T21:10:00Z"
+      },
+      "unread": 1,
+      "total_messages": 11,
+      "Status": "active"
+    },
+    {
+      "conversation_id": "conv_008",
+      "fan_data": {
+        "fanId": "fan_008",
+        "Name": "Diego Martinez",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=diego",
+        "TotalSpent": 340.00,
+        "subscription_tier": "VIP",
+        "member_since": "2025-01-18T00:00:00Z",
+        "tags": ["Regular tipper"]
+      },
+      "last_message": {
+        "msg_id": "msg_034",
+        "body": "Absolutely loved the behind-the-scenes content",
+        "from": "fan",
+        "sent_at": "2026-02-17T15:45:00Z"
+      },
+      "unread": 0,
+      "total_messages": 34,
+      "Status": "Active"
+    },
+    {
+      "conversation_id": "conv_009",
+      "fan_data": {
+        "fanId": "fan_009",
+        "Name": "Riley Thompson",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=riley",
+        "total_spent": 0,
+        "subscription_tier": "Free",
+        "member_since": "2026-02-18",
+        "tags": ["New fan"],
+        "is_online": false
+      },
+      "last_message": {
+        "msg_id": "msg_081",
+        "body": "Love what you're doing here!",
+        "from": "fan",
+        "sent_at": "2026-02-18T10:21:00Z"
+      },
+      "unread": 1,
+      "total_messages": 2,
+      "Status": "active",
+      "inline_messages": [
+        { "msg_id": "msg_080", "body": "Hi! Just found your page through Instagram", "from": "fan", "sent_at": "2026-02-18T10:20:00Z" },
+        { "msg_id": "msg_081", "body": "Love what you're doing here!", "from": "fan", "sent_at": "2026-02-18T10:21:00Z" }
+      ]
+    },
+    {
+      "conversation_id": "conv_010",
+      "fan_data": {
+        "fanId": "fan_010",
+        "Name": "Alex Volkov",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=alex",
+        "TotalSpent": 178.50,
+        "subscription_tier": "Basic",
+        "member_since": "2025-07-30T00:00:00Z",
+        "tags": ["Tipper"]
+      },
+      "last_message": {
+        "msg_id": "msg_023",
+        "body": "That collab you did was fire, any more coming?",
+        "from": "fan",
+        "sent_at": "2026-02-16T20:55:00Z"
+      },
+      "unread": 0,
+      "total_messages": 23,
+      "Status": "active"
+    },
+    {
+      "conversation_id": "conv_011",
+      "fan_data": {
+        "fanId": "fan_011",
+        "Name": "Jamie O'Brien",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=jamie",
+        "total_spent": 520.00,
+        "subscription_tier": "VIP",
+        "member_since": "2024-12-01T00:00:00Z",
+        "tags": ["Custom buyer", "VIP"]
+      },
+      "last_message": {
+        "msg_id": "msg_051_j",
+        "body": "Just renewed for another 3 months 🙌",
+        "from": "fan",
+        "sent_at": "2026-02-16T12:30:00Z"
+      },
+      "unread": 0,
+      "total_messages": 51,
+      "Status": "Active"
+    },
+    {
+      "conversation_id": "conv_012",
+      "fan_data": {
+        "fanId": "fan_012",
+        "Name": "Morgan Blake",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=morgan",
+        "TotalSpent": 8.99,
+        "subscription_tier": "Free",
+        "member_since": "2026-02-10T00:00:00Z",
+        "tags": []
+      },
+      "last_message": null,
+      "unread": 0,
+      "total_messages": 4,
+      "Status": "active"
+    }
+  ],
+  "referenced_messages": {
+    "conv_002": [
+      { "msg_id": "msg_030", "body": "Welcome to the VIP club Ashley! 💎", "from": "creator", "sent_at": "2024-03-22T08:00:00Z" },
+      { "msg_id": "msg_031", "body": "So happy to be here! Your content is unmatched", "from": "fan", "sent_at": "2024-03-22T08:10:00Z" },
+      { "msg_id": "msg_035", "body": "I've been thinking about getting something custom made", "from": "fan", "sent_at": "2025-06-15T14:00:00Z" },
+      { "msg_id": "msg_036", "body": "I'd love to create something special for you! What did you have in mind?", "from": "creator", "sent_at": "2025-06-15T14:15:00Z" },
+      { "msg_id": "msg_037", "body": "Sent you a $50 tip — let's discuss the details", "from": "fan", "sent_at": 1718459220, "attachments": [{ "type": "tip", "amount": 50.00 }] },
+      { "msg_id": "msg_038", "body": "You're amazing! Here's what I'm thinking...", "from": "creator", "sent_at": "2025-06-15T14:30:00Z" },
+      { "msg_id": "msg_039", "body": "Happy new year! Here's a special set just for my VIPs 🎆", "from": "creator", "sent_at": "2026-01-01T00:00:00Z", "attachments": [{ "type": "ppv", "price": 30.00, "label": "NYE Exclusive" }] },
+      { "msg_id": "msg_040", "body": "Best NYE gift ever! Take my money 💰", "from": "fan", "sent_at": "2026-01-01T00:15:00Z" },
+      { "msg_id": "msg_041", "body": "New month, new content! Check out what I've been working on", "from": "creator", "sent_at": "2026-02-01T10:00:00Z" },
+      { "msg_id": "msg_042", "body": "Can you do a custom set? Happy to pay premium for it", "from": "fan", "sent_at": "2026-02-19T08:15:00Z" }
+    ]
+  }
+}

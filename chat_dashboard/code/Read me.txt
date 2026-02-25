@@ -1,0 +1,82 @@
+I have built the chat dashboard as required. The goal was to achieve the requirements while keeping the system scalable and production ready.
+
+To run the project the laptop needs to have node.js installed. Any required package will be installed using npm install and to run the project the command 
+is: npm run dev and open local host at port 3000.
+
+I have structured the project as a full stack Next.js application so that frontend and backend api routes are available in the same codebase.
+Front end is Next js with React Query for data fetching and caching 
+Backend: Next.js Api routes acting as a middleware layer.
+for data normalization I have used dedicated normalization utilities 
+Styling is through Vanilla 
+
+I have intentionally kept normalization logic away from the API handlers so that front end never touches raw data directly.
+
+Api Endpoints 
+
+GET/api/conversation
+
+This return a normalized list of conversations. Implementation of filtering and sorting is done as required.
+
+All responses follow a consistent success and error envelope as defined in the scope.
+
+GET/api/conversations/:id/messages
+
+This  endpoint returns a full message thread for a specific conversation. Messages are sorted chronologically and normalized. This endpoint also handles cases 
+where messages are stored inline or reference separately.
+
+POST /api/conversations/:id/messages
+
+This Allows sending a new message. On success, the relevant conversation and message caches are invalidated. I also implemented optimistic updates on the frontend to improve perceived performance.
+
+PATCH /api/conversations/:id
+
+This Updates fan metadata such as tags. The updated tags are reflected immediately and the cache is invalidated accordingly.
+
+For data normalization:
+
+I implemented a dedicated data normalization layer that would convert:
+Field casing to camel casing
+timestamps to ISO 8601 UTC
+default Nullable fields to safe values
+unify inline messages and reference messages into single array 
+normalize status values to lower case 
+generate avatar fallback when missing
+
+Features implemented
+
+Conversation list with search, filter, and sorting
+
+Scrollable sidebar with unread counts and relative timestamps
+
+Conversation detail view with left and right aligned messages
+
+Message sending with optimistic UI updates
+
+Tag management for fans
+
+Keyboard navigation for improved usability
+
+Responsive layout across screen sizes
+
+In memory caching for API performance
+
+Authentication
+
+I added a mock Bearer token pattern to demonstrate how route protection would work, although it is not enforced by default.
+
+To enable authentication, API handlers can be wrapped with an auth middleware.
+
+
+Complete Tech Stack list
+
+
+Next.js for fullstack application structure
+
+TypeScript for strict typing across the stack
+
+React Query for server state management
+
+node-cache for in memory caching
+
+date-fns for date formatting
+ 
